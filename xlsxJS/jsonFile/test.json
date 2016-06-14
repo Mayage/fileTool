@@ -1,0 +1,26 @@
+{
+	"cancelTxt": {
+		"cType": "vehicle/v2/widget/RealButton",
+		"cEvent": ["{&#10;            \"type\": \"touchdown\",&#10;            \"callback\": \"onDrvWindowBtnClick\",&#10;            \"bind\": \"self\",&#10;            \"data\": {&#10;                \"type\": \"touchdown\"&#10;            }&#10;        }"],
+		"parentItem": "(popupRect)",
+		"width": 236,
+		"bottom": "(popupRect.bottom)",
+		"right": "(popupRect.right)",
+		"marginBottom": 160,
+		"marginRight": 160,
+		"text": "T(settingPopupCancel)",
+		"mode": "neutral"
+	},
+	"confirmTxt": {	
+		"cType": "vehicle/v2/widget/RealButton",
+		"cEvent": ["{type:click,callback:onClick,data}&#10;{type:0,callback:onClick,data}&#10;{type:0,callback:onClick,data}"],
+		"parentItem": "(popupRect)",
+		"width": 236,
+		"bottom": "(popupRect.bottom)",
+		"right": "(popupRect.right)",
+		"marginBottom": 160,
+		"marginRight": 160,
+		"text": "T(settingPopupCancel)",
+		"tabs": "[\"T(SettingsADASSmartSpeedLimit)\", \"T(SettingsADASmanualSpeedLimit)\", \"T(SettingsADASOverSpeedAlarm)\", \"T(SettingsADASOFF)\"],"
+	}
+}
