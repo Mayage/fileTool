@@ -1,0 +1,15 @@
+{
+  "Languages/en.json": "{%= wName %}/Languages/en.json",
+  "Languages/zh_cn.json": "{%= wName %}/Languages/zh_cn.json",
+  "Models/wNameModel.js": "{%= wName %}/Models/{%= wName %}Model.js",
+  "Resources/10.4Dark/res/": "{%= wName %}/Resources/10.4Dark/res/",
+  "Resources/10.4Dark/wNameStyle.json": "{%= wName %}/Resources/10.4Dark/{%= wName %}Style.json",
+  "Resources/10.4Dark/vNameStyle.json": "{%= wName %}/Resources/10.4Dark/{%= vName %}Style.json",
+  "Resources/8/res/": "{%= wName %}/Resources/8/res/",
+  "Resources/8/wNameStyle.json": "{%= wName %}/Resources/8/{%= wName %}Style.json",
+  "Resources/8/vNameStyle.json": "{%= wName %}/Resources/8/{%= vName %}Style.json",
+  "Views/vNameView.js": "{%= wName %}/Views/{%= vName %}View.js",
+  "Views/wNameView.js": "{%= wName %}/Views/{%= wName %}View.js",
+  "wNameWidget.js": "{%= wName %}/{%= wName %}Widget.js",
+  "config.json": "{%= wName %}/config.json"
+}
